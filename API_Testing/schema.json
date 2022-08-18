@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "Managing Partner": {
+          "type": "string"
+        },
+        "Plant Manager": {
+          "type": "string"
+        },
+        "Operation Manager": {
+          "type": "string"
+        },
+        "Quality Manager": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Managing Partner",
+        "Plant Manager",
+        "Operation Manager",
+        "Quality Manager"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "Emplpyee id ": {
+          "type": "string"
+        },
+        "Employee Name": {
+          "type": "string"
+        },
+        "Employee Designation": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Emplpyee id ",
+        "Employee Name",
+        "Employee Designation"
+      ]
+    }
+  ]
+}
